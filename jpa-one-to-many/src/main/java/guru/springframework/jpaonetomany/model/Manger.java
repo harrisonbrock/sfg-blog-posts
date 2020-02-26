@@ -1,11 +1,15 @@
 package guru.springframework.jpaonetomany.model;
 
-import lombok.Data;
+import lombok.*;
 
 import javax.persistence.*;
 
 @Data
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 @Table(name ="mangers")
 public class Manger {
 
