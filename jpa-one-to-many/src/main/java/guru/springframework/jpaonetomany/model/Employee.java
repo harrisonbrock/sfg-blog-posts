@@ -26,5 +26,5 @@ public class Employee {
     @JoinColumn(name = "manager_id", nullable = false)
     @OnDelete(action = OnDeleteAction.CASCADE)
     @JsonIgnore
-    private Manger manger;
+    private Manager manager;
 }
